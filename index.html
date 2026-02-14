@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="vi"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Học IELTS Tương Tác - Tự Kiểm Tra&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--primary: #2563eb;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--success: #22c55e;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--error: #ef4444;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--highlight: #fff59d;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bg: #f8fafc;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Segoe UI', system-ui, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--bg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 850px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 25px rgba(0,0,0,0.05);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.mode-switcher {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f1f5f9;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: fit-content;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.mode-btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 8px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.mode-btn.active {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 2px 5px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1 { color: #1e293b; font-size: 1.5rem; margin-bottom: 20px; border-left: 4px solid var(--primary); padding-left: 15px; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Chế độ Xem bài chữa */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.highlight {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--highlight);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 2px 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.tooltip {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>visibility: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #1e293b;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: 130%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 100;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: normal;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 5px 15px rgba(0,0,0,0.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.highlight.active .tooltip { visibility: visible; opacity: 1; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Chế độ Tự kiểm tra */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.quiz-input {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 2px solid #cbd5e1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 2px 5px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: inherit;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: inherit;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 150px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>outline: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #fdfdfd;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.quiz-input:focus { border-bottom-color: var(--primary); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.quiz-input.correct { border-bottom-color: var(--success); color: var(--success); font-weight: bold; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.quiz-input.wrong { border-bottom-color: var(--error); color: var(--error); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.correction-area {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f0fdf4;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px dashed #bbf7d0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.show { display: block !important; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hidden { display: none !important; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Phần Chữa Bài Tập: Introduction&lt;/h1&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="mode-switcher"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="mode-btn active" onclick="setMode('study')"&gt;Xem bài chữa&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="mode-btn" onclick="setMode('quiz')"&gt;Tự kiểm tra (Quiz)&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="content-area"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;The given graph illustrates<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="interactive-node"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                  </span>data-original="how much fruit was produced"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                  </span>data-correct="the level of fruit production"</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>data-note="Thầy dùng danh từ hóa (the level of...) để tăng tính trang trọng thay cho cấu trúc câu hỏi."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="highlight"&gt;how much fruit was produced&lt;span class="tooltip"&gt;&lt;/span&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/span&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>in<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="interactive-node"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                  </span>data-original="4 countries"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                  </span>data-correct="four countries"</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>data-note="Số dưới 10 nên viết bằng chữ trong văn phong học thuật."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="highlight"&gt;4 countries&lt;span class="tooltip"&gt;&lt;/span&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/span&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="interactive-node"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                  </span>data-original="including France, Spain, Germany, Turkey"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                  </span>data-correct="namely France, Spain, Germany, and Turkey"</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>data-note="Dùng 'namely' và thêm dấu phẩy trước 'and' để liệt kê chuẩn xác."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="highlight"&gt;including France, Spain, Germany, Turkey&lt;span class="tooltip"&gt;&lt;/span&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/span&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>between 1970 and 2010.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="correction-box" class="correction-area"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;strong&gt;💡 Đáp án đầy đủ:&lt;/strong&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;i id="full-answer"&gt;The given graph illustrates the level of fruit production in four countries, namely France, Spain, Germany, and Turkey, between 1970 and 2010.&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>let currentMode = 'study';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function setMode(mode) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>currentMode = mode;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.querySelectorAll('.mode-btn').forEach(btn =&gt; btn.classList.toggle('active', btn.innerText.includes(mode === 'study' ? 'Xem' : 'Tự')));</p>
+<p class="p1"><span class="Apple-converted-space">        </span>renderContent();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function renderContent() {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const nodes = document.querySelectorAll('.interactive-node');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const correctionBox = document.getElementById('correction-box');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>nodes.forEach(node =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const original = node.getAttribute('data-original');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const correct = node.getAttribute('data-correct');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const note = node.getAttribute('data-note');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (currentMode === 'study') {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>node.innerHTML = `&lt;span class="highlight" onclick="this.parentElement.classList.toggle('active')"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>${original}</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="tooltip"&gt;&lt;b&gt;Sửa thành:&lt;/b&gt; ${correct}&lt;br&gt;&lt;br&gt;&lt;b&gt;Tại sao:&lt;/b&gt; ${note}&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/span&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>correctionBox.classList.add('show');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>node.innerHTML = `&lt;input type="text" class="quiz-input" placeholder="Sửa lỗi tại đây..."<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>onblur="checkAnswer(this, '${correct}')"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>onkeyup="if(event.key==='Enter') checkAnswer(this, '${correct}')"&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>correctionBox.classList.remove('show');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function checkAnswer(input, correct) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (input.value.trim().toLowerCase() === correct.toLowerCase()) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>input.className = 'quiz-input correct';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>} else if (input.value.trim() !== "") {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>input.className = 'quiz-input wrong';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Hiện gợi ý nhỏ nếu sai</p>
+<p class="p1"><span class="Apple-converted-space">            </span>input.title = "Gợi ý: " + correct.substring(0, 3) + "...";</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// Khởi tạo lần đầu</p>
+<p class="p1"><span class="Apple-converted-space">    </span>renderContent();</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
